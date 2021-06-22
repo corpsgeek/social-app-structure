@@ -1,0 +1,13 @@
+Dear {{ new_user.username  }}
+
+Welcome to Social Flask App!
+
+To confirm your account please click on the following link:
+
+{{ url_for('auth.confirm', confirmation_key=confirmation_key, _external=True) }}
+
+Sincerely,
+
+The Social Flask Team
+
+Note: replies to this email address are not monitored.

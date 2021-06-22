@@ -1,1 +1,1 @@
-# social-app-structure
+A social application with Flask
